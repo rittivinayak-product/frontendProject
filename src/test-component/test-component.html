@@ -1,0 +1,18 @@
+<p>-------------</p>
+<p>test-component works!</p>
+
+
+<p>-------------</p>
+<p>Interpolation Data Binding</p>
+<p>{{ test }}</p>
+<p>-------------</p>
+<p>Property Binding</p>
+<span [title]="displayText">Hover over me!</span>
+<p>-------------</p>
+<p>Event Binding</p>
+<button (click)="onClick()">Click me!</button>
+<input (input)="onInput()" />
+<p>-------------</p>
+<p>Two way Event Binding</p>
+<button (click)="onClickTwoWay()">Click me to check the two way data binding!</button>
+<input (input)="onInput()" [(ngModel)]="test" />
